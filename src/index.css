@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   .list{
+    @apply hidden sm:inline-block pl-3 font-medium text-sm hover:underline
+   }
+   .content{
+    @apply flex items-center gap-3
+   }
+}
